@@ -226,7 +226,7 @@
 
     #hero h1{
         font-size: 64px;
-        font-weight: 700px;
+        font-weight: 700;
         line-height: 56px;
         color: var(--detalhes-escuros);
     }
@@ -239,7 +239,7 @@
     }
     
     #hero p span {
-        color: var(--texto-claro);
+        color: darkred;
         margin-bottom: 50px;
         letter-spacing: 1px;
         border-bottom: 3px solid var(--detalhes-escuros);
@@ -264,4 +264,94 @@
     
     
     }
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+    }
+
+    .section-bg {
+        background: var(--fundo-claro);
+
+    }
+    .section-title{
+        padding-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        color: darkred;
+    }
     
+    .section-title h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 170px;
+        height: 3px;
+        background: darkred;
+    }
+    .section-title p {
+        margin-bottom: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .sobre .content h3 {
+        font-size: 30px;
+        font-weight: 500;
+        font-family:'Times New Roman', Times, serif;
+        color: darkred;
+    }
+    .sobre .container ul{
+        list-style: none;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .sobre .container ul li{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .sobre .container ul strong {
+        margin-right: 15px;
+    }
+    .sobre  .container ul i {
+        font-size: 22px;
+        margin-right: 10px;
+        color:darkred;
+        line-height: 0;
+    }
+    .conquistas {
+        padding-bottom: 30px;
+    }
+    .conquistas .count-box {
+        padding: 30px;
+        width: 100%;
+    }
+    .conquistas .count-box i {
+        display: block;
+        font-size: 45px;
+        color: darkred;
+        float: left;
+        line-height: 0;
+    }
+    .conquistas .count-box span {
+        font-size: 50px;
+        line-height: 40px;
+        display: block;
+        font-weight: 700;
+        color: var(--detalhes-escuros);
+        margin-left: 60px;
+    }
+
+
+    .conquistas .count-box p {
+        padding: 15px 0 0 0;
+        margin: 0 0 0 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        
+    }
+    .conquistas .count-box i:hover{
+        color: whitesmoke;
+    }
