@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
 .jacquard-12-regular {
-    font-family: "Jacquard 12", sans-serif;
+    font-family:  sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -24,7 +24,7 @@
 
     body{
 
-        font-family: "Jacquard 12" , sans-serif ;
+        font-family:  sans-serif ;
         color: #ffffff;
         background: var(--fundo-escuro);
 
@@ -226,7 +226,7 @@
 
     #hero h1{
         font-size: 64px;
-        font-weight: 700;
+        font-weight: 700px;
         line-height: 56px;
         color: var(--detalhes-escuros);
     }
@@ -239,7 +239,7 @@
     }
     
     #hero p span {
-        color: darkred;
+        color: var(--texto-claro);
         margin-bottom: 50px;
         letter-spacing: 1px;
         border-bottom: 3px solid var(--detalhes-escuros);
@@ -268,10 +268,8 @@
         padding: 60px 0;
         overflow: hidden;
     }
-
-    .section-bg {
-        background: var(--fundo-claro);
-
+    .section-bg {  /*bg - background*/
+        background: var(--fundo-escuro);
     }
     .section-title{
         padding-bottom: 30px;
@@ -281,33 +279,30 @@
         font-weight: bold;
         margin-bottom: 20px;
         padding-bottom: 20px;
-        color: darkred;
+        color: var(--texto-titulo);
     }
-    
     .section-title h2::after {
         content: "";
         position: absolute;
         display: block;
-        width: 170px;
+        width: 150px;
         height: 3px;
-        background: darkred;
+        background: var(--detalhes-escuros);
     }
     .section-title p {
         margin-bottom: 0;
-        font-family: 'Times New Roman', Times, serif;
     }
-    .sobre .content h3 {
-        font-size: 30px;
+    /* sobre */
+    .sobre .container h3 {
+        font-size: 35px;
         font-weight: 500;
-        font-family:'Times New Roman', Times, serif;
-        color: darkred;
+        color: var(--detalhes-icones);
     }
     .sobre .container ul{
         list-style: none;
         padding: 0;
-        font-family: 'Times New Roman', Times, serif;
     }
-    .sobre .container ul li{
+    .sobre .container ul li {
         margin-bottom: 20px;
         display: flex;
         align-items: center;
@@ -315,12 +310,13 @@
     .sobre .container ul strong {
         margin-right: 15px;
     }
-    .sobre  .container ul i {
+    .sobre .container ul i {
         font-size: 22px;
         margin-right: 10px;
-        color:darkred;
+        color: var(--detalhes-icones);
         line-height: 0;
     }
+    /*  Conquistas */
     .conquistas {
         padding-bottom: 30px;
     }
@@ -331,27 +327,55 @@
     .conquistas .count-box i {
         display: block;
         font-size: 45px;
-        color: darkred;
+        color: var(--detalhes-escuros);
         float: left;
         line-height: 0;
     }
     .conquistas .count-box span {
-        font-size: 50px;
+        font-size: 75px;
         line-height: 40px;
         display: block;
         font-weight: 700;
-        color: var(--detalhes-escuros);
+        color: rgb(25, 3, 85);
         margin-left: 60px;
     }
-
-
     .conquistas .count-box p {
         padding: 15px 0 0 0;
         margin: 0 0 0 60px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Helvetica', serif;
         font-size: 16px;
-        
     }
     .conquistas .count-box i:hover{
+        color: rgb(25, 3, 85);
+    }
+    .skills .progress {
+        height: 60px;
+        display: block;
+        background: none;
+        border-radius: 0;
+
+    }
+    .skills .progress .skill {
+        padding: 0;
+        margin: 0 0 6px 0;
+        text-transform: uppercase;
+        display: block;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
         color: whitesmoke;
     }
+    .skills .progress .skill .val{
+        float: right;
+        font-style: normal;
+    }
+    .skills .progress-bar-bg{
+        background: var(--detalhes-claro);
+        height: 15px;
+    }
+    .skills .progress-bar {
+        width: 1px;
+        height: 15px;
+        transition: 5s;
+        background: #240664;
+    }
+
