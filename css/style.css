@@ -327,7 +327,7 @@
     .conquistas .count-box i {
         display: block;
         font-size: 45px;
-        color: var(--detalhes-escuros);
+        color: rgb(25, 3, 85);
         float: left;
         line-height: 0;
     }
@@ -346,7 +346,7 @@
         font-size: 16px;
     }
     .conquistas .count-box i:hover{
-        color: rgb(25, 3, 85);
+        color: rgb(61, 21, 170);
     }
     .skills .progress {
         height: 60px;
@@ -378,4 +378,54 @@
         transition: 5s;
         background: #240664;
     }
+    .resumo .resumo-titulo {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #1A0940;
+    }
+    .resumo .resumo-item {
+        padding: 0 0 20px 20px;
+        
+        border-left: 2px solid #1A0940;
+        position: relative;
+    }
 
+.resumo .resumo-item h4 {
+    line-height: 22px;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif ;
+    color:#1A0940 ;
+    margin-bottom: 25px ;
+}
+.resumo .resumo-item h5 {
+    font-size: 16px;
+    background: #1A0940 ;
+    color: whitesmoke;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.resumo .resumo-item ul {
+padding-left: 20px;
+}
+.resumo .resumo-item li {
+    padding-bottom: 10px;
+}
+.resumo .resumo-item::before {
+    content:"" ;
+    position: absolute;
+    top: 0 ;
+    left: -9px ;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1A0940;
+    border: 2px solid #1A0940;
+
+}
