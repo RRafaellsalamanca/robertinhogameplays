@@ -637,3 +637,105 @@ transition: all 0.5s ease-in-out;
     background: nada;
 
 }
+.contato {
+    padding-bottom: 130px;
+}
+.contato .info {
+    padding: 30px;
+    background: #1c0157;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(219, 215, 215, 0.495);
+}
+.contato .info i {
+    font-size: 20px;
+    color: #4100c9;
+    float: left;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.contato .info h4 {
+    color: #4001c9;
+    padding-left: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contato .info p {
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 0 0 10px 16px;
+    margin-bottom: 30px;
+}
+.contato .info .fone p:hover {
+    color: #6600ff;
+
+}
+.contato .email-form {
+    padding: 30px;
+    background: #1c0157;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(219, 215, 215, 0.495);
+}
+.contato .email-form .form-group {
+    padding-bottom: 15px;
+}
+.contato .email-form label {
+    color: whitesmoke;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+.contato .email-form input,
+.contato .email-form textarea {
+    box-shadow: none;
+    font-size: 16px;
+}
+.contato .email-form input {
+    height: 40px;
+}
+.contato .email-form textarea {
+    padding: 10px 15px;
+}
+.contato .email-form button[type=submit] {
+    background: #3700ad;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 24px;
+  /*   width: 170px;
+    height: 40px;
+    font-size: 18px; */
+    transition: 0.4s;
+}
+.contato .email-form button[type=submit]:hover {
+    background: rgb(11, 138, 0);
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9999;
+    background: #3700ad;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+.back-to-top i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 0;
+}
+.back-to-top :hover{
+    background: ainda nao tem;
+}
+.back-to-top {
+    visibility: visible;
+    opacity: 1                                                                                                                                                                                                                                                                                                                                                                                  ;
+}
